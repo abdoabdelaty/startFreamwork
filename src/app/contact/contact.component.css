@@ -1,0 +1,63 @@
+.contact {
+  margin-top: 90px;
+}
+.contact span {
+  height: 4px;
+  background-color: rgb(44, 62, 80);
+  width: 80px;
+}
+.contact h2 {
+  color: rgb(44, 62, 80);
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-group {
+  width: 55%;
+}
+.btn {
+  background-color: var(--main-color-2);
+}
+.input-container {
+  position: relative;
+  margin-top: 20px;
+  width: 90%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease;
+  color: #1abc9c;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+label.active {
+  top: 0px;
+  transform: translateY(-100%);
+  font-size: 16px;
+  color: #1abc9c;
+  opacity: 1;
+  visibility: visible;
+  left: 10px;
+}
+.btn {
+  background-color: #1abc9c;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+}

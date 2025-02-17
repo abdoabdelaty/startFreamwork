@@ -1,0 +1,10 @@
+.about {
+  background-color: var(--main-color-2);
+  height: 95vh;
+  color: white;
+}
+.about span {
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 80px;
+}

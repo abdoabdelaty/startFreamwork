@@ -1,0 +1,50 @@
+.portfolio {
+  margin-top: 90px;
+}
+.portfolio span {
+  height: 4px;
+  background-color: rgb(44, 62, 80);
+  width: 80px;
+}
+.portfolio h2 {
+  color: rgb(44, 62, 80);
+}
+.layer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: #1abc9ce6;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 0.5s;
+}
+.layer:hover {
+  opacity: 1;
+}
+.box-container {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000dff3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 660px;
+  height: 450px;
+  background-image: url(../../assets/images/poert1.png);
+  background-size: cover;
+  background-position: center center;
+}

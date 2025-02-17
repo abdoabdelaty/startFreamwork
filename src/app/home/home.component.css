@@ -1,0 +1,14 @@
+.home {
+  background-color: var(--main-color-2);
+  height: 95vh;
+  color: white;
+}
+.home img {
+  width: 230px;
+  margin-bottom: 16px;
+}
+.home span {
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 80px;
+}

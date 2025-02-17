@@ -1,0 +1,67 @@
+<div class="contact">
+  <div class="headar text-center pt-4">
+    <h2 class="text-uppercase m-3 fs-1 fw-bolder">conatct section</h2>
+    <div class="d-flex align-items-center justify-content-center mb-3">
+      <span class="me-3"></span>
+      <i class="fa-solid fa-star"></i>
+      <span class="ms-3"></span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="form-group mx-auto py-5">
+      <div class="input-container mt-4">
+        <label [class.active]="userName.length > 0" for="userName"
+          >userName :</label
+        >
+        <input
+          [(ngModel)]="userName"
+          type="text"
+          id="userName"
+          required
+          class="form-control border-0 border-bottom py-3"
+          placeholder="userName"
+        />
+      </div>
+      <div class="input-container mt-4">
+        <label [class.active]="userAge.length > 0" for="userAge"
+          >userAge :</label
+        >
+        <input
+          [(ngModel)]="userAge"
+          type="text"
+          id="userAge"
+          required
+          class="form-control border-0 border-bottom py-3"
+          placeholder="userAge"
+        />
+      </div>
+      <div class="input-container mt-4">
+        <label [class.active]="userEmail.length > 0" for="userEmail"
+          >userEmail :</label
+        >
+        <input
+          [(ngModel)]="userEmail"
+          type="email"
+          id="userEmail"
+          required
+          class="form-control border-0 border-bottom py-3"
+          placeholder="userEmail"
+        />
+      </div>
+      <div class="input-container mt-4">
+        <label [class.active]="userPassword.length > 0" for="userPassword"
+          >userPassword :</label
+        >
+        <input
+          [(ngModel)]="userPassword"
+          type="password"
+          id="userPassword"
+          required
+          class="form-control border-0 border-bottom py-3"
+          placeholder="userPassword"
+        />
+      </div>
+      <button class="btn mt-3 mb-5 text-white">send Message</button>
+    </div>
+  </div>
+</div>

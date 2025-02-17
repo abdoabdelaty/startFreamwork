@@ -1,0 +1,20 @@
+footer {
+  color: white !important;
+}
+.footer-group {
+  background-color: var(--main-color);
+  padding: 40px;
+}
+footer h3 {
+  font-size: 28px;
+  line-height: 34px;
+}
+footer .foot-icon i {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.foot-end {
+  background-color: #1a252f;
+  margin: 0;
+}
